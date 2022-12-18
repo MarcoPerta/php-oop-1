@@ -4,11 +4,13 @@ class Movie {
 public $nomeFilm;
 public $voto;
 public $annoUscita;
+public $poster;
 
-function __construct( $x, $y, $z){
+function __construct( $x, $y, $z, $i){
     $this -> nomeFilm = $x;
     $this -> voto = $y;
     $this -> annoUscita = $z;
+    $this -> poster = $i;
 }
 
 function howIs(){
